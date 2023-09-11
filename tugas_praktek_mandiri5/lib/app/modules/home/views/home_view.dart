@@ -12,6 +12,7 @@ class HomeView extends GetView<HomeController> {
       appBar: AppBar(
         title: const Text('Halo Altera'),
         centerTitle: true,
+        backgroundColor: Colors.indigo,
       ),
       body: const Center(
         child: Column(
