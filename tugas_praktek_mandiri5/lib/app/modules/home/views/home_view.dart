@@ -14,10 +14,10 @@ class HomeView extends GetView<HomeController> {
         centerTitle: true,
         backgroundColor: Colors.indigo,
       ),
-      body: const Center(
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          children: const [
             Text(
               'Halo..!\nNama saya adalah Fauzan Akbar Khan',
               style: TextStyle(fontSize: 20),
