@@ -3,5 +3,9 @@ class ContactsModel {
   String? phoneNumber;
   String? imgProfile;
 
-  ContactsModel({this.name, this.phoneNumber, this.imgProfile});
+  ContactsModel({
+    this.name,
+    this.phoneNumber,
+    this.imgProfile,
+  });
 }

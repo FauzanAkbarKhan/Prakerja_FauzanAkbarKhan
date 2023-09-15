@@ -22,5 +22,3 @@ class HomeController extends GetxController {
     ];
   }
 }
-
-//  +626500270688 +624622713837 +623101373267 +625374471266 +627689403675
