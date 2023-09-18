@@ -1,0 +1,1677 @@
+{
+  "status": true,
+  "message": "Success",
+  "timestamp": 1695000614910,
+  "data": [
+    {
+      "id": "tt11737520",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "One Piece"
+      },
+      "primaryImage": {
+        "id": "rm3448251905",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYzczMzllN2UtNDJmOS00MmE5LWE2MWYtNGEwODcwMDc2M2YyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "imageWidth": 450,
+        "imageHeight": 630
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8.5,
+        "topRanking": {
+          "rank": 366
+        },
+        "voteCount": 86976
+      },
+      "releaseYear": {
+        "year": 2023,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "One Piece"
+      },
+      "titleType": {
+        "id": "tvSeries",
+        "text": "TV Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.netflix",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Netflix"
+                  },
+                  "refTagFragment": "netflix",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/f409199e-794d-4822-acf9-38bca16baa5e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/9516b142-0c88-4475-a39b-97c06546cdc5._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Netflix"
+                },
+                "description": {
+                  "value": "S1 with subscription"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "https://www.netflix.com/watch/80217863?source=imdb"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po4978571",
+        "author": null,
+        "plotText": {
+          "plainText": "In a seafaring world, a young pirate captain sets out with his crew to attain the title of Pirate King, and to discover the mythical treasure known as 'One Piece.'"
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt11737520/contribution/plot/po4978571/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt11737520/contribution/plot/po4978571/report"
+        }
+      },
+      "releaseDate": {
+        "day": 31,
+        "month": 8,
+        "year": 2023,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "TV-14",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 3600,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 1,
+        "rankChange": {
+          "changeDirection": "FLAT",
+          "difference": 0
+        }
+      }
+    },
+    {
+      "id": "tt13622776",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Ahsoka"
+      },
+      "primaryImage": {
+        "id": "rm933635329",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMWM1NjU1MDgtYjhjYS00Mjg5LWE1MWEtNzUwNWMxNTU2ZWY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "imageWidth": 1688,
+        "imageHeight": 2500
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8,
+        "topRanking": {
+          "rank": 790
+        },
+        "voteCount": 37765
+      },
+      "releaseYear": {
+        "year": 2023,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Ahsoka"
+      },
+      "titleType": {
+        "id": "tvMiniSeries",
+        "text": "TV Mini Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Mini Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": []
+      },
+      "plot": {
+        "id": "po5461494",
+        "author": null,
+        "plotText": {
+          "plainText": "After the fall of the Galactic Empire, former Jedi Knight Ahsoka Tano investigates an emerging threat to a vulnerable galaxy."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt13622776/contribution/plot/po5461494/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt13622776/contribution/plot/po5461494/report"
+        }
+      },
+      "releaseDate": {
+        "day": 22,
+        "month": 8,
+        "year": 2023,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "TV-14",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": null,
+      "chartMeterRanking": {
+        "currentRank": 2,
+        "rankChange": {
+          "changeDirection": "FLAT",
+          "difference": 0
+        }
+      }
+    },
+    {
+      "id": "tt7462410",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "The Wheel of Time"
+      },
+      "primaryImage": {
+        "id": "rm1795971841",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjcyOTk2YmQtMTI3NS00MTM3LWIyZDgtZGJkMDk1YmE2ZDEwXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "imageWidth": 1944,
+        "imageHeight": 2880
+      },
+      "ratingsSummary": {
+        "aggregateRating": 7.1,
+        "topRanking": {
+          "rank": 1716
+        },
+        "voteCount": 118334
+      },
+      "releaseYear": {
+        "year": 2021,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "The Wheel of Time"
+      },
+      "titleType": {
+        "id": "tvSeries",
+        "text": "TV Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video.PRIME",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "included with Prime"
+                  },
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvs_piv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/e062ea53-945a-42cb-8d15-6405531687ec._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/75f35a85-7a6e-4f1f-bf8b-e4c8556bc4e4._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "S1-2 included with Prime"
+                },
+                "shortDescription": {
+                  "value": "S1-2"
+                },
+                "link": "aiv://aiv/resume?gti=amzn1.dv.gti.fc256dec-bd7d-40af-8ca5-77e5169c2fc7"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po3546112",
+        "author": null,
+        "plotText": {
+          "plainText": "Set in a high fantasy world where magic exists, but only some can access it, a woman named Moiraine crosses paths with five young men and women. This sparks a dangerous, world-spanning journey. Based on the book series by Robert Jordan."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt7462410/contribution/plot/po3546112/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt7462410/contribution/plot/po3546112/report"
+        }
+      },
+      "releaseDate": {
+        "day": 19,
+        "month": 11,
+        "year": 2021,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "TV-14",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 3600,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 3,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 14
+        }
+      }
+    },
+    {
+      "id": "tt0388629",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "One Piece: Wan pîsu"
+      },
+      "primaryImage": {
+        "id": "rm3995109633",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BODcwNWE3OTMtMDc3MS00NDFjLWE1OTAtNDU3NjgxODMxY2UyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "imageWidth": 1064,
+        "imageHeight": 1596
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8.9,
+        "topRanking": {
+          "rank": 63
+        },
+        "voteCount": 192618
+      },
+      "releaseYear": {
+        "year": 1999,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "One Piece"
+      },
+      "titleType": {
+        "id": "tvSeries",
+        "text": "TV Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.adultswim",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "Go to adultswim.com"
+                  },
+                  "name": {
+                    "value": "adultswim"
+                  },
+                  "refTagFragment": "ad_sw",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/f283b0a7-ae68-46ab-899f-98bf04ed753e._V1_.png",
+                      "width": 512,
+                      "height": 512
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/80a94f20-6774-47bd-9245-f36a43eaea92._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on adultswim"
+                },
+                "description": {
+                  "value": "S16-17 Go to adultswim.com"
+                },
+                "shortDescription": {
+                  "value": "S16-17"
+                },
+                "link": "https://www.adultswim.com/"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.funimation",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "Go to funimation.com"
+                  },
+                  "name": {
+                    "value": "Funimation"
+                  },
+                  "refTagFragment": "fun_ca",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/bd74b889-3fdc-46d3-90c1-6603e9f297d0._V1_.png",
+                      "width": 512,
+                      "height": 512
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/59018638-6acc-4d8f-b4e4-3a41ad552ef7._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Funimation"
+                },
+                "description": {
+                  "value": "S1-14 Go to funimation.com"
+                },
+                "shortDescription": {
+                  "value": "S1-14"
+                },
+                "link": "https://www.funimation.com/shows/"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.hulu",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "on Hulu.com and the Hulu app"
+                  },
+                  "name": {
+                    "value": "Hulu"
+                  },
+                  "refTagFragment": "hulu",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/454c994e-acf4-49ef-83d5-8fa06c8a5eab._V1_.png",
+                      "width": 512,
+                      "height": 512
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/67022a68-fde3-4078-8bd0-0ebc72efe8ad._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Hulu"
+                },
+                "description": {
+                  "value": "S1-10 on Hulu.com and the Hulu app"
+                },
+                "shortDescription": {
+                  "value": "S1-10"
+                },
+                "link": "http://www.hulu.com?d=Amazon"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.netflix",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Netflix"
+                  },
+                  "refTagFragment": "netflix",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/f409199e-794d-4822-acf9-38bca16baa5e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/9516b142-0c88-4475-a39b-97c06546cdc5._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Netflix"
+                },
+                "description": {
+                  "value": "S1-15 with subscription"
+                },
+                "shortDescription": {
+                  "value": "S1-15"
+                },
+                "link": "https://www.netflix.com/watch/80107103?source=imdb"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.pluto",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "Go to pluto.tv"
+                  },
+                  "name": {
+                    "value": "Pluto TV"
+                  },
+                  "refTagFragment": "pluto",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/643318a5-306a-4a10-bf34-2d05985d2786._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/ca986b38-0182-4a91-b9a3-8d61c84d4e59._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Pluto TV"
+                },
+                "description": {
+                  "value": "S1-9 Go to pluto.tv"
+                },
+                "shortDescription": {
+                  "value": "S1-9"
+                },
+                "link": "https://pluto.tv/on-demand"
+              }
+            ]
+          },
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video",
+                  "categoryType": "RENT_OR_BUY",
+                  "description": null,
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvt_aiv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/4c192978-331f-429e-9c97-02d5ed9d436e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/b63dfed5-e4fa-434c-be14-d2dc2b60fbae._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "buy from $17.99"
+                },
+                "shortDescription": {
+                  "value": "from $17.99"
+                },
+                "link": "aiv://aiv/view?gti=amzn1.dv.gti.3eb322b6-176b-8025-8224-dda999bd8077"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.amazon",
+                  "categoryType": "RENT_OR_BUY",
+                  "description": {
+                    "value": "Amazon"
+                  },
+                  "name": {
+                    "value": "Amazon"
+                  },
+                  "refTagFragment": "amazon",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/b26d1036-b801-4e57-8ce8-70c40cea751f._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/b6a99b0d-356a-4dae-9ffc-248e123b204b._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Search on Amazon"
+                },
+                "description": {
+                  "value": "search for Blu-ray and DVD"
+                },
+                "shortDescription": {
+                  "value": "search Amazon"
+                },
+                "link": "com.amazon.mobile.shopping://amazon.com/s?i=movies-tv&k=One+Piece%3A+Wan+p%C3%AEsu"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po2146222",
+        "author": null,
+        "plotText": {
+          "plainText": "Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named \"One Piece\"."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt0388629/contribution/plot/po2146222/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt0388629/contribution/plot/po2146222/report"
+        }
+      },
+      "releaseDate": {
+        "day": 20,
+        "month": 10,
+        "year": 1999,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "TV-14",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 1440,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": [
+            {
+              "plainText": "Germany"
+            }
+          ]
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 4,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 21
+        }
+      }
+    },
+    {
+      "id": "tt15398776",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Oppenheimer"
+      },
+      "primaryImage": {
+        "id": "rm2670601217",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_.jpg",
+        "imageWidth": 2331,
+        "imageHeight": 3454
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8.6,
+        "topRanking": {
+          "rank": 43
+        },
+        "voteCount": 434575
+      },
+      "releaseYear": {
+        "year": 2023,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Oppenheimer"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": []
+      },
+      "plot": {
+        "id": "po6201773",
+        "author": null,
+        "plotText": {
+          "plainText": "The story of American scientist, J. Robert Oppenheimer, and his role in the development of the atomic bomb."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt15398776/contribution/plot/po6201773/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt15398776/contribution/plot/po6201773/report"
+        }
+      },
+      "releaseDate": {
+        "day": 21,
+        "month": 7,
+        "year": 2023,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "R",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated R for some sexuality, nudity and language"
+      },
+      "titleRuntime": {
+        "seconds": 10800,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 5,
+        "rankChange": {
+          "changeDirection": "DOWN",
+          "difference": 1
+        }
+      }
+    },
+    {
+      "id": "tt1517268",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Barbie"
+      },
+      "primaryImage": {
+        "id": "rm431105281",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+        "imageWidth": 1900,
+        "imageHeight": 2814
+      },
+      "ratingsSummary": {
+        "aggregateRating": 7.2,
+        "topRanking": {
+          "rank": 2018
+        },
+        "voteCount": 313735
+      },
+      "releaseYear": {
+        "year": 2023,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Barbie"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video",
+                  "categoryType": "RENT_OR_BUY",
+                  "description": null,
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvt_aiv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/4c192978-331f-429e-9c97-02d5ed9d436e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/b63dfed5-e4fa-434c-be14-d2dc2b60fbae._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "rent/buy from $24.99"
+                },
+                "shortDescription": {
+                  "value": "from $24.99"
+                },
+                "link": "aiv://aiv/view?gti=amzn1.dv.gti.17f2bd91-afd8-4ae8-8dbc-9c49066e771c"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po6848414",
+        "author": null,
+        "plotText": {
+          "plainText": "Barbie suffers a crisis that leads her to question her world and her existence."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt1517268/contribution/plot/po6848414/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt1517268/contribution/plot/po6848414/report"
+        }
+      },
+      "releaseDate": {
+        "day": 21,
+        "month": 7,
+        "year": 2023,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "PG-13",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated PG-13 for suggestive references and brief language."
+      },
+      "titleRuntime": {
+        "seconds": 6840,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 6,
+        "rankChange": {
+          "changeDirection": "FLAT",
+          "difference": 0
+        }
+      }
+    },
+    {
+      "id": "tt21276878",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "You Are So Not Invited to My Bat Mitzvah"
+      },
+      "primaryImage": {
+        "id": "rm2754959361",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BZWQ3ZDQ3MTYtZWUyOS00YmFhLTllOWItNzNmNjE0ZDI5YWE5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "imageWidth": 1500,
+        "imageHeight": 2222
+      },
+      "ratingsSummary": {
+        "aggregateRating": 6,
+        "topRanking": null,
+        "voteCount": 16509
+      },
+      "releaseYear": {
+        "year": 2023,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "You Are So Not Invited to My Bat Mitzvah"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.netflix",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Netflix"
+                  },
+                  "refTagFragment": "netflix",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/f409199e-794d-4822-acf9-38bca16baa5e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/9516b142-0c88-4475-a39b-97c06546cdc5._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Netflix"
+                },
+                "description": {
+                  "value": "with subscription"
+                },
+                "shortDescription": null,
+                "link": "https://www.netflix.com/watch/81416306?source=imdb"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po6719616",
+        "author": null,
+        "plotText": {
+          "plainText": "Stacy and Lydia are BFFs who've always dreamed about having epic Bat Mitzvahs. However, things start to go comically awry when a popular boy and middle school drama threatens their friendship and their rite of passage."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt21276878/contribution/plot/po6719616/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt21276878/contribution/plot/po6719616/report"
+        }
+      },
+      "releaseDate": {
+        "day": 25,
+        "month": 8,
+        "year": 2023,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "PG-13",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated PG-13 for some crude/suggestive material, strong language and brief teen drinking."
+      },
+      "titleRuntime": {
+        "seconds": 6180,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 7,
+        "rankChange": {
+          "changeDirection": "DOWN",
+          "difference": 4
+        }
+      }
+    },
+    {
+      "id": "tt13111078",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Special Ops: Lioness"
+      },
+      "primaryImage": {
+        "id": "rm3235127553",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMmRkMWQzZWUtZjkzNS00OWVhLTkxNDAtNzg4ODgxMTg0MTNlXkEyXkFqcGdeQXVyMTMzOTQyOTk1._V1_.jpg",
+        "imageWidth": 2700,
+        "imageHeight": 4000
+      },
+      "ratingsSummary": {
+        "aggregateRating": 7.7,
+        "topRanking": {
+          "rank": 1065
+        },
+        "voteCount": 21479
+      },
+      "releaseYear": {
+        "year": 2023,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Special Ops: Lioness"
+      },
+      "titleType": {
+        "id": "tvSeries",
+        "text": "TV Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video.cbsaaca",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with Prime Video Channels"
+                  },
+                  "name": {
+                    "value": "Paramount+"
+                  },
+                  "refTagFragment": "pvc_paramount+",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/83230f2a-d6e3-41ed-bf4d-9c4bbddff767._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/ef380fc5-d6b9-44de-9ad7-c91baefebf4e._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Paramount+"
+                },
+                "description": {
+                  "value": "S1 with Prime Video Channels"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "aiv://aiv/view?gti=amzn1.dv.gti.640f67cf-c455-4965-88b0-ae3fd5d236e9"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.cbs_aa",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Paramount+"
+                  },
+                  "refTagFragment": "paramount+",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/e49120ab-6b5f-4646-9948-ae0938f24ddd._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/c5b957f1-4220-47c0-b5e0-bbbad817fc1f._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Paramount+"
+                },
+                "description": {
+                  "value": "S1 with subscription"
+                },
+                "shortDescription": {
+                  "value": "S1"
+                },
+                "link": "https://www.cbs.com/all-access/"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po5536909",
+        "author": null,
+        "plotText": {
+          "plainText": "Joe attempts to balance her personal and professional life as the tip of the spear in the CIA's war on terror. She enlists Cruz, a female special operations Marine, as an undercover operative in the Lioness Program."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt13111078/contribution/plot/po5536909/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt13111078/contribution/plot/po5536909/report"
+        }
+      },
+      "releaseDate": {
+        "day": 23,
+        "month": 7,
+        "year": 2023,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": [
+          {
+            "text": "internet"
+          }
+        ]
+      },
+      "titleCertificate": {
+        "rating": "TV-MA",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 2520,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 8,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 6
+        }
+      }
+    },
+    {
+      "id": "tt17024450",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "The Equalizer 3"
+      },
+      "primaryImage": {
+        "id": "rm3479252737",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BODdiMzM2YjctZmU3ZS00MzUwLWJiYTMtMmI2NzIyMTQyOTQ1XkEyXkFqcGdeQXVyODY5NzkyMjA@._V1_.jpg",
+        "imageWidth": 1080,
+        "imageHeight": 1350
+      },
+      "ratingsSummary": {
+        "aggregateRating": 7.1,
+        "topRanking": null,
+        "voteCount": 17892
+      },
+      "releaseYear": {
+        "year": 2023,
+        "endYear": null
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "The Equalizer 3"
+      },
+      "titleType": {
+        "id": "movie",
+        "text": "Movie",
+        "displayableProperty": {
+          "value": {
+            "plainText": ""
+          }
+        },
+        "categories": [
+          {
+            "id": "movie",
+            "text": "Movie",
+            "value": "movie"
+          }
+        ],
+        "canHaveEpisodes": false,
+        "isSeries": false,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": []
+      },
+      "plot": {
+        "id": "po6924264",
+        "author": null,
+        "plotText": {
+          "plainText": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt17024450/contribution/plot/po6924264/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt17024450/contribution/plot/po6924264/report"
+        }
+      },
+      "releaseDate": {
+        "day": 1,
+        "month": 9,
+        "year": 2023,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "R",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": "Rated R for strong bloody violence and some language."
+      },
+      "titleRuntime": {
+        "seconds": 6540,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 9,
+        "rankChange": {
+          "changeDirection": "UP",
+          "difference": 11
+        }
+      }
+    },
+    {
+      "id": "tt1632701",
+      "isAdult": false,
+      "canRateTitle": {
+        "isRatable": true
+      },
+      "originalTitleText": {
+        "text": "Suits"
+      },
+      "primaryImage": {
+        "id": "rm2076613889",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "imageWidth": 680,
+        "imageHeight": 1000
+      },
+      "ratingsSummary": {
+        "aggregateRating": 8.4,
+        "topRanking": {
+          "rank": 372
+        },
+        "voteCount": 449796
+      },
+      "releaseYear": {
+        "year": 2011,
+        "endYear": 2019
+      },
+      "titleEpisode": null,
+      "titleText": {
+        "text": "Suits"
+      },
+      "titleType": {
+        "id": "tvSeries",
+        "text": "TV Series",
+        "displayableProperty": {
+          "value": {
+            "plainText": "TV Series"
+          }
+        },
+        "categories": [
+          {
+            "id": "tv",
+            "text": "TV",
+            "value": "tv"
+          }
+        ],
+        "canHaveEpisodes": true,
+        "isSeries": true,
+        "isEpisode": false
+      },
+      "series": null,
+      "watchOptionsByCategory": {
+        "categorizedWatchOptionsList": [
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.netflix",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Netflix"
+                  },
+                  "refTagFragment": "netflix",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/f409199e-794d-4822-acf9-38bca16baa5e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/9516b142-0c88-4475-a39b-97c06546cdc5._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Netflix"
+                },
+                "description": {
+                  "value": "S1-8 with subscription"
+                },
+                "shortDescription": {
+                  "value": "S1-8"
+                },
+                "link": "https://www.netflix.com/watch/70195800?source=imdb"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.peacock",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "with subscription"
+                  },
+                  "name": {
+                    "value": "Peacock"
+                  },
+                  "refTagFragment": "peacock",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/9fa2061e-98f6-48fe-aaaf-c8a68561eef6._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/6fb741f3-e5ff-4a4c-ab84-e6fa7acf7056._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Peacock"
+                },
+                "description": {
+                  "value": "S1-9 with subscription"
+                },
+                "shortDescription": {
+                  "value": "S1-9"
+                },
+                "link": "https://www.peacocktv.com"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video.PRIME",
+                  "categoryType": "SUBSCRIPTION",
+                  "description": {
+                    "value": "included with Prime"
+                  },
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvs_piv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/e062ea53-945a-42cb-8d15-6405531687ec._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/75f35a85-7a6e-4f1f-bf8b-e4c8556bc4e4._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "S3, 9 included with Prime"
+                },
+                "shortDescription": {
+                  "value": "S3, 9"
+                },
+                "link": "aiv://aiv/resume?gti=amzn1.dv.gti.12a9f7a6-3d6a-5ca7-3add-e9e6e861453d"
+              }
+            ]
+          },
+          {
+            "watchOptions": [
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.prime_video",
+                  "categoryType": "RENT_OR_BUY",
+                  "description": null,
+                  "name": {
+                    "value": "Prime Video"
+                  },
+                  "refTagFragment": "pvt_aiv",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/4c192978-331f-429e-9c97-02d5ed9d436e._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/b63dfed5-e4fa-434c-be14-d2dc2b60fbae._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Watch on Prime Video"
+                },
+                "description": {
+                  "value": "buy from $16.99"
+                },
+                "shortDescription": {
+                  "value": "from $16.99"
+                },
+                "link": "aiv://aiv/view?gti=amzn1.dv.gti.f8a9f7a9-5030-e370-7576-1882f4d2b439"
+              },
+              {
+                "provider": {
+                  "id": "amzn1.imdb.w2w.provider.amazon",
+                  "categoryType": "RENT_OR_BUY",
+                  "description": {
+                    "value": "Amazon"
+                  },
+                  "name": {
+                    "value": "Amazon"
+                  },
+                  "refTagFragment": "amazon",
+                  "logos": {
+                    "icon": {
+                      "url": "https://m.media-amazon.com/images/M/b26d1036-b801-4e57-8ce8-70c40cea751f._V1_.png",
+                      "width": 500,
+                      "height": 500
+                    },
+                    "slate": {
+                      "url": "https://m.media-amazon.com/images/M/b6a99b0d-356a-4dae-9ffc-248e123b204b._V1_.png",
+                      "width": 1280,
+                      "height": 720
+                    }
+                  }
+                },
+                "title": {
+                  "value": "Search on Amazon"
+                },
+                "description": {
+                  "value": "search for Blu-ray and DVD"
+                },
+                "shortDescription": {
+                  "value": "search Amazon"
+                },
+                "link": "com.amazon.mobile.shopping://amazon.com/s?i=movies-tv&k=Suits"
+              }
+            ]
+          }
+        ]
+      },
+      "plot": {
+        "id": "po1453252",
+        "author": null,
+        "plotText": {
+          "plainText": "On the run from a drug deal gone bad, brilliant college dropout Mike Ross finds himself working with Harvey Specter, one of New York City's best lawyers."
+        },
+        "correctionLink": {
+          "url": "https://m.imdb.com/title/tt1632701/contribution/plot/po1453252/edit"
+        },
+        "reportingLink": {
+          "url": "https://m.imdb.com/title/tt1632701/contribution/plot/po1453252/report"
+        }
+      },
+      "releaseDate": {
+        "day": 23,
+        "month": 6,
+        "year": 2011,
+        "country": {
+          "id": "US",
+          "text": "United States"
+        },
+        "restriction": null,
+        "releaseAttributes": []
+      },
+      "titleCertificate": {
+        "rating": "TV-14",
+        "certificateCountry": {
+          "id": "US",
+          "text": "United States"
+        },
+        "ratingReason": null
+      },
+      "titleRuntime": {
+        "seconds": 2640,
+        "displayableProperty": {
+          "qualifiersInMarkdownList": null
+        }
+      },
+      "chartMeterRanking": {
+        "currentRank": 10,
+        "rankChange": {
+          "changeDirection": "DOWN",
+          "difference": 3
+        }
+      }
+    }
+  ]
+}
