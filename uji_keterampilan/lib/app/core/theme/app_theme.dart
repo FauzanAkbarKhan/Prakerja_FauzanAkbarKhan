@@ -10,10 +10,17 @@ final kRadius = BorderRadius.circular(5.r);
 const backgroundColor = Color(0xFF121212);
 
 const textColor = Colors.white;
-const primaryColor = Color(0xFFFFEB3B);
+const primaryColor = Colors.amber;
 const surfaceColor = Colors.white10;
 const errorColor = Colors.red;
 const shadowColor = Colors.grey;
+const darkGrey = Color(0xFF2D2D2D);
+
+const BoxShadow kBoxShadow = BoxShadow(
+  color: backgroundColor,
+  offset: Offset(0.0, 1.0), //(x,y)
+  blurRadius: 1.0,
+);
 
 ThemeData darkTheme = ThemeData(
   primaryColor: primaryColor,
@@ -27,8 +34,9 @@ ThemeData darkTheme = ThemeData(
     onError: errorColor.withAlpha(100),
     background: backgroundColor,
     onBackground: Colors.white,
-    surface: backgroundColor,
-    onSurface: surfaceColor,
+    surface: surfaceColor,
+    onSurface: Colors.white,
+    shadow: shadowColor,
   ),
   scaffoldBackgroundColor: backgroundColor,
   textTheme: GoogleFonts.poppinsTextTheme(
@@ -51,7 +59,7 @@ ThemeData darkTheme = ThemeData(
     ),
   ),
   bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-    backgroundColor: surfaceColor,
+    backgroundColor: darkGrey,
     unselectedIconTheme: IconThemeData(color: shadowColor),
     unselectedLabelStyle: TextStyle(color: Colors.red),
     selectedItemColor: primaryColor,
@@ -59,6 +67,10 @@ ThemeData darkTheme = ThemeData(
     selectedLabelStyle: TextStyle(color: primaryColor),
     unselectedItemColor: shadowColor,
   ),
-  appBarTheme: const AppBarTheme(backgroundColor: surfaceColor),
+  appBarTheme: const AppBarTheme(backgroundColor: darkGrey),
   canvasColor: surfaceColor,
+  tabBarTheme: TabBarTheme(
+    overlayColor: MaterialStateProperty.all<Color>(Colors.amber),
+    indicatorColor: Colors.amber,
+  ),
 );

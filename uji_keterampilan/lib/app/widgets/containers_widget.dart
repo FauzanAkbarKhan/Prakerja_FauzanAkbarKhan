@@ -9,16 +9,26 @@ class Containers {
     required String title,
     required Widget child,
     EdgeInsetsGeometry? padding,
+    EdgeInsetsGeometry? margin,
     Color? backgroundColor,
     BorderRadius? borderRadius,
+    String? subtitle,
+    Widget? trailing,
+    double? height,
+    double? width,
   }) {
     return Container(
+      margin: margin ?? EdgeInsets.symmetric(vertical: 5.h),
+      height: height,
+      width: width,
       padding: padding ?? kPadding,
       decoration: BoxDecoration(
         color: backgroundColor ?? surfaceColor,
-        borderRadius: borderRadius ?? kRadius,
+        borderRadius: borderRadius,
+        boxShadow: const [kBoxShadow],
       ),
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
             children: [
@@ -32,8 +42,18 @@ class Containers {
                 ),
               ),
               Texts.titleBold(title),
+              const Spacer(),
+              trailing ?? const SizedBox(),
             ],
           ),
+          subtitle != null
+              ? Padding(
+                  padding: EdgeInsets.all(10.h),
+                  child: Texts.subTitleReg(subtitle),
+                )
+              : SizedBox(
+                  height: 10.h,
+                ),
           child
         ],
       ),

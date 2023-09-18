@@ -1,12 +1,19 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
+import 'package:uji_keterampilan/app/data/models/popular_model.dart';
+import 'package:uji_keterampilan/app/data/models/whats_streaming_model.dart';
 
 import '../models/fan_favorites_model.dart';
 import '../models/week_top10_model.dart';
 
-const baseUrl = 'https://imdb188.p.rapidapi.com/api/v1';
+const baseUrlRapid = 'https://imdb188.p.rapidapi.com/api/v1';
 
 const rapidApiToken = '8b9c8a547cmsh31d8ddd1dff8d82p1e2b24jsn13d8186304c4';
+
+const baseUrl = 'https://api.themoviedb.org/3/movie';
+
+const apiToken =
+    'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ZmUxYmZhZGQwMjM4MmRlMzliYjEwMTg3ZjQ3YWYwNSIsInN1YiI6IjY1MDgxNWQwOGE4OGIyMDExZGIyODI2ZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.83fcpChSZxYh0Vmbq7zY32c5q3VA2zK4uNXqoDcRhd4';
 
 class ApiProvider {
   String? token;
@@ -15,9 +22,8 @@ class ApiProvider {
     BaseOptions(
       baseUrl: baseUrl,
       headers: {
-        "Accept": "application/json",
-        'X-RapidAPI-Key': rapidApiToken,
-        'X-RapidAPI-Host': 'imdb188.p.rapidapi.com'
+        "accept": "application/json",
+        "Authorization": apiToken,
       },
       connectTimeout: const Duration(minutes: 1),
       receiveTimeout: const Duration(minutes: 1),
@@ -88,12 +94,49 @@ class ApiProvider {
         },
       );
 
-  Future<WeekTop10> weekTop10(WeekTop10? fanFavorites) =>
+  Future<WeekTop10> weekTop10(WeekTop10? weekTop10) =>
       _dio.get('/getWeekTop10').then(
         (response) {
           debugPrint('ApiProvider |  weekTop10 ()=> $response.data}');
 
           return WeekTop10.fromJson(response.data);
+        },
+      ).catchError(
+        (e) {
+          throw Exception(
+            e.runtimeType == DioException
+                ? e.error
+                : "Terjadi Kesalahan, Silahkan Coba Lagi , $e",
+          );
+        },
+      );
+
+  Future<WhatsStreaming> whatsStreaming(WhatsStreaming? whatsStreaming) =>
+      _dio.get('/getWhatsStreaming').then(
+        (response) {
+          debugPrint('ApiProvider |  whatsStreaming ()=> $response.data}');
+
+          return WhatsStreaming.fromJson(response.data);
+        },
+      ).catchError(
+        (e) {
+          throw Exception(
+            e.runtimeType == DioException
+                ? e.error
+                : "Terjadi Kesalahan, Silahkan Coba Lagi , $e",
+          );
+        },
+      );
+
+  Future<Popular> popular({
+    String? language = 'en-US',
+    int? page = 1,
+  }) =>
+      _dio.get('/popular?language=$language&page=$page').then(
+        (response) {
+          debugPrint('ApiProvider |  popular ()=> $response.data}');
+
+          return Popular.fromJson(response.data);
         },
       ).catchError(
         (e) {
