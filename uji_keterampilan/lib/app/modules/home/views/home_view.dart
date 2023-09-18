@@ -4,7 +4,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
 import 'package:get/get.dart';
-import 'package:uji_keterampilan/app/core/constant/value.dart';
 import 'package:uji_keterampilan/app/data/providers/api.dart';
 import 'package:uji_keterampilan/app/widgets/cards_widget.dart';
 import 'package:uji_keterampilan/app/widgets/containers_widget.dart';
@@ -30,12 +29,13 @@ class HomeView extends GetView<HomeController> {
                 : ListView(
                     children: [
                       CarouselSlider.builder(
-                        itemCount: 5,
+                        itemCount: controller.dataCarousel?.data?.length ?? 0,
                         itemBuilder: (context, index, realIndex) {
-                          var data = controller.weekTop10?.data?[index];
+                          var data = controller.dataCarousel?.data?[index];
                           return controller.carouselsController.buildImage(
-                              urlImage: data?.primaryImage?.imageUrl,
-                              index: index);
+                            urlImage: '${data?.imageUrl}',
+                            index: index,
+                          );
                         },
                         options: controller.carouselsController.defaultOption(),
                       ),
@@ -75,20 +75,15 @@ class HomeView extends GetView<HomeController> {
                           scrollDirection: Axis.horizontal,
                           child: Row(
                             children: List.generate(
-                              controller.fanFavorites?.data?.list?.length ?? 10,
+                              controller.dataCarousel?.data?.length ?? 0,
                               (index) {
                                 var data =
-                                    controller.fanFavorites?.data?.list?[index];
+                                    controller.dataCarousel?.data?[index];
                                 return Cards.movieCards(
-                                  urlImage: data?.primaryImage?.imageUrl,
-                                  title: data?.titleText?.text,
-                                  releaseYear: '${data?.releaseYear?.year}',
-                                  duration: formatDuration(
-                                      data?.titleRuntime?.seconds ?? 0),
-                                  rating: formatRating(
-                                      '${data?.titleCertificate?.rating}'),
-                                  aggregateRating:
-                                      data?.ratingsSummary?.aggregateRating,
+                                  urlImage: '${data?.imageUrl}',
+                                  title: data?.title,
+                                  releaseYear: '${data?.releaseDate}',
+                                  aggregateRating: data?.vote,
                                 );
                               },
                             ),
@@ -115,20 +110,15 @@ class HomeView extends GetView<HomeController> {
                           scrollDirection: Axis.horizontal,
                           child: Row(
                             children: List.generate(
-                              controller.fanFavorites?.data?.list?.length ?? 10,
+                              controller.dataCarousel?.data?.length ?? 0,
                               (index) {
                                 var data =
-                                    controller.fanFavorites?.data?.list?[index];
+                                    controller.dataCarousel?.data?[index];
                                 return Cards.movieCards(
-                                  urlImage: data?.primaryImage?.imageUrl,
-                                  title: data?.titleText?.text,
-                                  releaseYear: '${data?.releaseYear?.year}',
-                                  duration: formatDuration(
-                                      data?.titleRuntime?.seconds ?? 0),
-                                  rating: formatRating(
-                                      '${data?.titleCertificate?.rating}'),
-                                  aggregateRating:
-                                      data?.ratingsSummary?.aggregateRating,
+                                  urlImage: '${data?.imageUrl}',
+                                  title: data?.title,
+                                  releaseYear: '${data?.releaseDate}',
+                                  aggregateRating: data?.vote,
                                 );
                               },
                             ),
@@ -148,13 +138,13 @@ class HomeView extends GetView<HomeController> {
                         ),
                         child: Column(
                           children: List.generate(
-                            6,
+                            controller.dataCarousel?.data?.length ?? 0,
                             (index) => Row(
                               children: [
                                 Expanded(
                                     child: Texts.subTitleBold('${index + 1}')),
                                 Expanded(
-                                  flex: 29,
+                                  flex: 28,
                                   child: ListTile(
                                     leading: Stack(
                                       alignment: Alignment.center,
@@ -175,8 +165,10 @@ class HomeView extends GetView<HomeController> {
                                         ),
                                       ],
                                     ),
-                                    title: Texts.subTitleBold('The Nun II'),
-                                    subtitle: Texts.body('\$14.6M'),
+                                    title: Texts.subTitleBold(
+                                        '${controller.dataCarousel?.data?[index].title}'),
+                                    subtitle: Texts.body(
+                                        '${controller.dataCarousel?.data?[index].vote}'),
                                     trailing: InkWell(
                                       onTap: () {},
                                       child: CircleAvatar(
@@ -209,20 +201,15 @@ class HomeView extends GetView<HomeController> {
                           scrollDirection: Axis.horizontal,
                           child: Row(
                             children: List.generate(
-                              controller.fanFavorites?.data?.list?.length ?? 10,
+                              controller.dataCarousel?.data?.length ?? 0,
                               (index) {
                                 var data =
-                                    controller.fanFavorites?.data?.list?[index];
+                                    controller.dataCarousel?.data?[index];
                                 return Cards.movieCards(
-                                  urlImage: data?.primaryImage?.imageUrl,
-                                  title: data?.titleText?.text,
-                                  releaseYear: '${data?.releaseYear?.year}',
-                                  duration: formatDuration(
-                                      data?.titleRuntime?.seconds ?? 0),
-                                  rating: formatRating(
-                                      '${data?.titleCertificate?.rating}'),
-                                  aggregateRating:
-                                      data?.ratingsSummary?.aggregateRating,
+                                  urlImage: '${data?.imageUrl}',
+                                  title: data?.title,
+                                  releaseYear: '${data?.releaseDate}',
+                                  aggregateRating: data?.vote,
                                 );
                               },
                             ),

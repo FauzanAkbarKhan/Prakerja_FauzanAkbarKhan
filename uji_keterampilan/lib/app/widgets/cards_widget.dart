@@ -118,7 +118,7 @@ class Cards {
                               child: Texts.body('$rating'),
                             )
                           : const SizedBox(),
-                      Texts.body('$duration'),
+                      // Texts.body('$duration'),
                     ],
                   ),
                 ],

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:get/get.dart';
@@ -12,58 +11,62 @@ class SearchMenuView extends GetView<SearchMenuController> {
   const SearchMenuView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: TextField(
-          decoration: InputDecoration(
-            contentPadding: EdgeInsets.zero,
-            fillColor: Colors.white,
-            filled: true,
-            border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(10.r),
+    return GetBuilder<SearchMenuController>(
+        init: SearchMenuController(),
+        builder: (controller) {
+          return Scaffold(
+            appBar: AppBar(
+              title: TextField(
+                decoration: InputDecoration(
+                  contentPadding: EdgeInsets.zero,
+                  fillColor: Colors.white,
+                  filled: true,
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(10.r),
+                  ),
+                  prefixIcon: Icon(
+                    Icons.search,
+                    color: Get.theme.colorScheme.background,
+                  ),
+                  hintText: 'Search IMDb',
+                ),
+              ),
             ),
-            prefixIcon: Icon(
-              Icons.search,
-              color: Get.theme.colorScheme.background,
+            body: ListView(
+              padding: kPadding,
+              children: [
+                SearchMovieCategoryWidget(
+                  icon: Icons.history,
+                  title: 'Recent',
+                  trailing: Texts.titleReg(
+                    'CLEAR',
+                    color: Colors.blue,
+                  ),
+                ),
+                const SearchMovieCategoryWidget(
+                  icon: Icons.local_movies_rounded,
+                  title: 'Movies',
+                ),
+                const SearchMovieCategoryWidget(
+                  icon: Icons.tv,
+                  title: 'Streaming & TV',
+                ),
+                const SearchMovieCategoryWidget(
+                  icon: Icons.people_alt_sharp,
+                  title: 'Celebs',
+                ),
+                const SearchMovieCategoryWidget(
+                  icon: Icons.stars_rounded,
+                  title: 'Awards & Events',
+                ),
+                const SearchMovieCategoryWidget(
+                  icon: Icons.public,
+                  title: 'Community',
+                ),
+              ],
             ),
-            hintText: 'Search IMDb',
-          ),
-        ),
-      ),
-      body: ListView(
-        padding: kPadding,
-        children: [
-          SearchMovieCategoryWidget(
-            icon: Icons.history,
-            title: 'Recent',
-            trailing: Texts.titleReg(
-              'CLEAR',
-              color: Colors.blue,
-            ),
-          ),
-          const SearchMovieCategoryWidget(
-            icon: Icons.local_movies_rounded,
-            title: 'Movies',
-          ),
-          const SearchMovieCategoryWidget(
-            icon: Icons.tv,
-            title: 'Streaming & TV',
-          ),
-          const SearchMovieCategoryWidget(
-            icon: Icons.people_alt_sharp,
-            title: 'Celebs',
-          ),
-          const SearchMovieCategoryWidget(
-            icon: Icons.stars_rounded,
-            title: 'Awards & Events',
-          ),
-          const SearchMovieCategoryWidget(
-            icon: Icons.public,
-            title: 'Community',
-          ),
-        ],
-      ),
-    );
+          );
+        });
   }
 }
 

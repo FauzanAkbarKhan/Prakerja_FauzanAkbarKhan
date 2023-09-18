@@ -16,7 +16,10 @@ class CarouselsController {
           // borderRadius: BorderRadius.circular(10.r),
           color: Get.theme.colorScheme.background.withAlpha(200),
         ),
-        child: DefaultImageWidget(urlImage: urlImage),
+        child: DefaultImageWidget(
+          urlImage: urlImage,
+          fit: BoxFit.contain,
+        ),
       );
 
   defaultOption({
@@ -27,7 +30,7 @@ class CarouselsController {
   }) =>
       CarouselOptions(
         // height: height ?? Get.height.h / 2 + 100.w, // full
-        height: height ?? Get.width.w / 1.5,
+        height: height ?? Get.width.w,
         enableInfiniteScroll: enableInfiniteScroll ?? true,
         viewportFraction: viewportFraction,
         autoPlay: autoPlay ?? true,
