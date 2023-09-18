@@ -10,7 +10,9 @@ class Texts {
   }) {
     return Text(
       text,
+      maxLines: 2,
       style: TextStyle(
+        overflow: TextOverflow.ellipsis,
         fontSize: 14.sp,
         fontWeight: FontWeight.bold,
         color: color,
@@ -25,11 +27,14 @@ class Texts {
   }) {
     return Text(
       text,
+      maxLines: 2,
       style: TextStyle(
+        overflow: TextOverflow.ellipsis,
         fontSize: 14.sp,
         fontWeight: FontWeight.normal,
         color: color,
       ),
+      textAlign: TextAlign.start,
     );
   }
 
@@ -40,8 +45,10 @@ class Texts {
   }) {
     return Text(
       text,
+      maxLines: 2,
       style: TextStyle(
-        fontSize: 14.sp,
+        overflow: TextOverflow.ellipsis,
+        fontSize: 12.sp,
         color: color ?? textColor.withAlpha(214),
         fontWeight: FontWeight.bold,
       ),
@@ -55,8 +62,10 @@ class Texts {
   }) {
     return Text(
       text,
+      maxLines: 2,
       style: TextStyle(
-        fontSize: 14.sp,
+        overflow: TextOverflow.ellipsis,
+        fontSize: 12.sp,
         color: color ?? textColor.withAlpha(214),
       ),
     );
@@ -69,8 +78,10 @@ class Texts {
   }) {
     return Text(
       text,
+      maxLines: 2,
       style: TextStyle(
-        fontSize: 14.sp,
+        overflow: TextOverflow.ellipsis,
+        fontSize: 12.sp,
         color: color,
       ),
     );
@@ -83,8 +94,10 @@ class Texts {
   }) {
     return Text(
       text,
+      maxLines: 2,
       style: TextStyle(
-        fontSize: 12.sp,
+        overflow: TextOverflow.ellipsis,
+        fontSize: 10.sp,
         color: color,
       ),
     );
@@ -97,8 +110,10 @@ class Texts {
   }) {
     return Text(
       text,
+      maxLines: 2,
       style: TextStyle(
-        fontSize: 14.sp,
+        overflow: TextOverflow.ellipsis,
+        fontSize: 12.sp,
         color: color ?? Colors.black,
       ),
     );
@@ -111,9 +126,11 @@ class Texts {
   }) {
     return Text(
       text,
+      maxLines: 2,
       style: TextStyle(
-        fontSize: 20.sp,
-        color: color ?? Colors.black,
+        overflow: TextOverflow.ellipsis,
+        fontSize: 18.sp,
+        color: color,
         fontWeight: FontWeight.bold,
       ),
     );

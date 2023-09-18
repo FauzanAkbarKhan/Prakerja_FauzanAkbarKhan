@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
+import 'package:uji_keterampilan/app/data/models/whats_streaming_model.dart';
 
 import '../models/fan_favorites_model.dart';
 import '../models/week_top10_model.dart';
@@ -88,12 +89,29 @@ class ApiProvider {
         },
       );
 
-  Future<WeekTop10> weekTop10(WeekTop10? fanFavorites) =>
+  Future<WeekTop10> weekTop10(WeekTop10? weekTop10) =>
       _dio.get('/getWeekTop10').then(
         (response) {
           debugPrint('ApiProvider |  weekTop10 ()=> $response.data}');
 
           return WeekTop10.fromJson(response.data);
+        },
+      ).catchError(
+        (e) {
+          throw Exception(
+            e.runtimeType == DioException
+                ? e.error
+                : "Terjadi Kesalahan, Silahkan Coba Lagi , $e",
+          );
+        },
+      );
+
+  Future<WhatsStreaming> whatsStreaming(WhatsStreaming? whatsStreaming) =>
+      _dio.get('/getWhatsStreaming').then(
+        (response) {
+          debugPrint('ApiProvider |  whatsStreaming ()=> $response.data}');
+
+          return WhatsStreaming.fromJson(response.data);
         },
       ).catchError(
         (e) {

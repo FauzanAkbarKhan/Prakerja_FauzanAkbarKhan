@@ -30,19 +30,19 @@ class DashboardView extends GetView<DashboardController> {
                 icon: Icon(
                   Icons.search_rounded,
                 ),
-                label: "Feed",
+                label: "Search",
               ),
               BottomNavigationBarItem(
                 icon: Icon(
                   Icons.play_circle_fill_rounded,
                 ),
-                label: "Feed",
+                label: "Video",
               ),
               BottomNavigationBarItem(
                 icon: Icon(
                   Icons.account_circle,
                 ),
-                label: "Feed",
+                label: "You",
               ),
             ],
           ),
